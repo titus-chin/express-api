@@ -1,4 +1,4 @@
-POST http://localhost:8080/add/song HTTP/1.1
+POST https://fierce-gray-hippo.cyclic.app/add/song HTTP/1.1
 content-type: application/json
 
 {
@@ -7,15 +7,15 @@ content-type: application/json
     "dislikes": 0
 }
 
-GET http://localhost:8080/get/all/songs HTTP/1.1
+GET https://fierce-gray-hippo.cyclic.app/get/all/songs HTTP/1.1
 
-DELETE http://localhost:8080/remove/song/6400a18dc7958dfc6cf16080 HTTP/1.1
+DELETE https://fierce-gray-hippo.cyclic.app/remove/song/6400ac086267ff939b7f6461 HTTP/1.1
 
-PUT http://localhost:8080/update/song/63ff4fce83b54b93c16f1080 HTTP/1.1
+PUT https://fierce-gray-hippo.cyclic.app/update/song/63ff4fce83b54b93c16f1080 HTTP/1.1
 content-type: application/json
 
   {
     "videoid": "RoY1xBJkF6c",
-    "likes": 100,
-    "dislikes": 50
+    "likes": 0,
+    "dislikes": 0
   }
