@@ -2,9 +2,13 @@
 let express = require("express")
 let mongoose = require("mongoose")
 const songs = require("./songs")
+let cors = require("cors")
 
 // create express app
 let app = express()
+
+// configure cors
+app.use(cors())
 
 app.use(express.json())
 
